@@ -26,3 +26,7 @@ Then open `http://localhost:8000` in a browser.
 ## Deployment
 
 The site is deployed automatically through GitHub Pages whenever the `master` branch changes.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2633eb9bfca68fb9759bfea25351929b92818a51
