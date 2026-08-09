@@ -1,6 +1,6 @@
-# Charlie Fang — Personal Website
+# Cheng Fang — Personal Website
 
-A responsive personal website for Charlie Fang, redesigned from a static HTML template.
+A responsive personal website for Cheng Fang, a PhD candidate in Materials Science at Shanghai Jiao Tong University.
 
 ## Website
 
@@ -21,7 +21,7 @@ Then open `http://localhost:8000` in a browser.
 
 - Edit `index.html` for the biography, contact link, and project descriptions.
 - Edit `assets/css/main.css` for the visual design.
-- Replace the email address in `index.html` before sharing the site publicly.
+- Add a portrait and CV PDF when they are ready.
 
 ## Deployment
 
