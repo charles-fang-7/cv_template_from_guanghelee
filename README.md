@@ -4,7 +4,7 @@ A responsive personal website for Cheng Fang, a PhD candidate in Materials Scien
 
 ## Website
 
-Once GitHub Pages is enabled for this repository, the public site is available at:
+The public site is available at:
 
 **https://charles-fang-7.github.io/cv_template_from_guanghelee/**
 
@@ -25,4 +25,5 @@ Then open `http://localhost:8000` in a browser.
 
 ## Deployment
 
-Publish the `master` branch through GitHub Pages with the repository root (`/`) selected as the source. GitHub will serve the site at the URL above.
+The site is deployed automatically through GitHub Pages whenever the `master` branch changes.
+
