@@ -1,0 +1,153 @@
+<section>
+  <h1>Research Projects</h1>
+  <h3>Please click the image to see the details (and more figures).</h3>
+  <article id="cs-integration">
+    <div class="cell-image">
+      <a href="image/projects/apple_80.png" class="image thumb">
+        <img src="image/projects/apple_80.png"
+             alt=" " />
+      </a>
+      <a href="image/projects/mercury_60.png" class="image thumb hidden">
+        <img src="image/projects/mercury_60.png"
+             alt=" " />
+      </a>
+      <a href="image/projects/drl-sense.jpg" class="image thumb hidden">
+        <img src="image/projects/drl-sense.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>DRL-Sense: Deep Reinforcement Learning for Multi-Sense Word Representations</h3>
+      <p>Advisor: Yun-Nung (Vivian) Chen</p> 
+      <p>Paper Abstract: <br />
+        This paper proposes DRL-Sense--a multi-sense word representation learning model, to address the word sense ambiguity issue, where a sense selection module and a sense representation module are jointly learned in a reinforcement learning fashion. A novel reward passing procedure is proposed to enable joint training on the selection and representation modules. The modular design implements pure sense-level representation learning with linear time sense selection (decoding). We further develop a non-parametric learning algorithm and a sense exploration mechanism for better flexibility and robustness. The experiments on benchmark data show that the proposed approach achieves the state-of-the-art performance on contextual word similarities and comparable performance with Google's word2vec while using much less training data.
+    </div>
+    
+    </article>
+  <article id="cs-integration">
+    <div class="cell-image">
+       <a href="image/projects/DMF_PGM.jpg" class="image thumb">
+        <img src="image/projects/DMF_PGM.jpg"
+             alt=" " />
+      </a>
+      <a href="image/projects/DMF_diverse.jpg" class="image thumb hidden">
+        <img src="image/projects/DMF_diverse.jpg"
+             alt=" " />
+      </a>
+      <a href="image/projects/DMF_IOT.jpg" class="image thumb hidden">
+        <img src="image/projects/DMF_IOT.jpg"
+             alt=" " />
+      </a>
+      <a href="image/projects/DMF_REC.jpg" class="image thumb hidden">
+        <img src="image/projects/DMF_IOT.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>Robust Machine Learning for Heteroscedasticity</h3>
+      <p>Intel Labs (Patent number: PCT/US2015/049110 and PCT/US2015/000390)</p> 
+      <p>Paper: [<a href="pub/kdd17-heteroscedastic-learning.pdf">pdf</a>]</p>
+      <p>Paper Abstract: <br />
+        Given the existence of stochastic noises, the implicit deviations of sample data from their true values are almost surely diverse, which introduces heteroscedasticity and makes each data point not equally suitable for fitting a model. In this case, simply averaging the cost among data in the loss function is not ideal. Intuitively we would like to emphasize more on the reliable instances (i.e., those contain smaller noise) while training a model. <br />
+        Motivated by such observation, we derive a general supervised learning framework which models the uncertainty in addition to the typical label prediction. We instantiate our idea with matrix factorization (MF) and gradient boosting machine (GBM). To our best knowledge, we are among the first to study a low-rank noise structure in MF and to propose a GBM with uncertainty modeling. Our model has two advantages. First, it jointly learns the uncertainty and conducts dynamic reweighting of instances, allowing the model to converge to a better solution. Second, during learning the deviated instances are assigned lower weights, which leads to faster convergence since the model does not need to overfit the noise. The experiments show that our model outperforms the typical empirical risk minimization framework in both accuracy and efficiency in a variety of experiment scenarios including recommendation, missing data imputation, regression, and classification.</p>
+    </div>
+    
+    </article>
+    <article id="language-explorer">
+    <div class="cell-image">
+      <a href="image/projects/RFID.jpg" class="image thumb">
+        <img src="image/projects/RFID.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>Passive RFID tracking in retail stores</h3>
+      <p>Intel Labs (Patent number: PCT/US2015/067244)</p> 
+      <p>I was fortunate to be invited to visit Hillsboro (Oregon), Chandler (Arizona) and Santa Clara (California) offices to cooperate with the IoT Group for this project.</p>
+      <p>Passive RFID data are unreliable due to lack of internal power source; thus precise tracking of thousands of clothes is hard. From the discussion with domain experts, we found a hierarchical inference model is suitable for this task and the location of RFID is highly temporally dependent; we proposed a temporally smoothed random forest model with an empirical 90% accuracy using multi-store real data.</p>
+    </div>
+  </article>
+
+  <article id="movisee">
+    <div class="cell-image">
+      <a href="image/projects/CDAE.jpg" class="image thumb">
+        <img src="image/projects/CDAE.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>Cost-sensitive Deep Learning</h3>
+      <p>Intel Labs (Patent number: P88497/14/757,959) (collaborated with intern Yu-An Chung)</p>
+      <p>
+        Cost-sensitive learning is not well-investigated in deep learning. We proposed two algorithms that embed the cost information in the pre-training and the training stage in deep learning, separately. Empirically, by extensive comparisons with Bayes, smoothed one-sided regression, and standard deep learning methods, we achieved superior performance in 7 out of 8 datasets, in which 4 datasets are balanced and 4 datasets are unbalanced.</p>
+     </div>
+  </article>
+
+  <article id="analogyspace">
+    <div class="cell-image">
+      <a href="image/projects/LMF_LR.jpg" class="image thumb">
+        <img src="image/projects/LMF_LR.jpg"
+             alt=" " />
+      </a>
+      <a href="image/projects/LMF_APPROX.jpg" class="image thumb hidden">
+        <img src="image/projects/LMF_APPROX.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>Learning-to-Rank (LTR) Matrix Factorization</h3>
+      <p>Machine Discovery and Social Network Mining Lab</p> 
+      <p>Paper: [<a href="pub/icdm15-lambdaMF.pdf">pdf</a>] [<a href="pub/supplementary-materials-lambdaMF.pdf">supplementary material</a>] [<a href="pub/LambdaMF.zip">code</a>]</p>
+      <p> Paper Abstract: </p>
+      This paper emphasizes optimizing ranking measures in a recommendation problem. Since ranking measures are non-differentiable, previous works have been proposed to deal with this problem via approximations or lower/upper bounding of the loss. However, such mismatch between ranking measures and approximations/bounds can lead to non-optimal ranking results. To solve this problem, we propose to model the gradient of non-differentiable ranking measure based on the idea of virtual gradient, which is called lambda in learning to rank. In addition, noticing the difference between learning to rank and recommendation models, we prove that under certain circumstance the existence of popular items can lead to unlimited norm growing of the latent factors in a matrix factorization model. We further create a novel regularization term to remedy such concern. Finally, we demonstrate that our model, LambdaMF, outperforms several state-of-the-art methods. We further show in experiments that in all cases our model achieves global optimum of normalized discount cumulative gain during training.</p>
+     </div>
+  </article>
+
+  <article id="virtualpets">
+    <div class="cell-image">
+      <a href="image/projects/SR_LR.jpg" class="image thumb hidden">
+        <img src="image/projects/SR_LR.jpg"
+             alt=" " />
+      </a>
+      <a href="image/projects/SR_IM.jpg" class="image thumb">
+        <img src="image/projects/SR_IM.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>Heterogeneous Transfer Learning for Convolutional Neural Network (CNN) in Super Resolution (SR)</h3>
+      <p>Machine Discovery and Social Network Mining Lab</p> 
+      <p>The state-of-the-art SR system with CNN takes 3 days to converge. While typical acceleration method for training CNN like transfer learning is not applicable to SR, where no pre-trained SR CNN model is available, we designed a transfer learning procedure for CNN from object recognition trained in Cifar-10 dataset. Fortunately, the method achieved 11.54 times faster training time while with comparable reconstruction error.</p>
+     </div>
+  </article>
+
+  <article id="cubicfilm">
+    <div class="cell-image">
+      <a href="image/projects/KDD.jpg" class="image thumb">
+        <img src="image/projects/KDD.jpg"
+             alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>KDD Cup 2014: predicting promising projects for DonorsChoose.org </h3>
+      <p>Advisor: Prof. Chih-Jen Lin and Shou-De Lin</p> 
+      <p>Rank: 12/472</p>
+      The cup is aimed to predict 'exciting' projects, which is defined by KDD Cup as a boolean operation on 7 seperate labels, for DonorsChoose.org.</p>
+      <p>In NTU team, which consists of 21 students, I proposed the most accurate validation set in NTU team by analyzing the temporal relationship in data. In addition, I also created the best single model in NTU team by designing a joint feature weighting and selection procedure for random forest.</p>
+     </div>
+  </article>
+
+  <article id="taiwanuxd">
+    <div class="cell-image">
+      <a href="image/projects/IM.jpg" class="image thumb">
+        <img src="image/projects/IM.jpg" alt=" " />
+      </a>
+    </div>
+    <div class="cell-text">
+      <h3>Multi-round Multi-party Influence Maximization</h3>
+      <p>Machine Discovery and Social Network Mining Lab</p> 
+      <p>We proposed a genetic algorithm for influence maximization in social networks by formulating the influence target into a dense vector representation, rather then conventional binary vector representation, for efficient computation over large social networks. The proposed model achieved superior performance to the state-of-the-art greedy algorithm, which holds currently the best theoretical approximation factor of the optimal solution for the NP-hard influence maximization problem in polynomial time, in a multi-round multi-party scenario.</p>
+    </div>
+  </article>
+
+</section>
