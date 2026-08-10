@@ -6,7 +6,7 @@ A responsive personal website for Cheng Fang, a PhD candidate in Materials Scien
 
 The public site is available at:
 
-**https://charles-fang-7.github.io/cv_template_from_guanghelee/**
+**https://charles-fang-7.github.io/personal_website/**
 
 Forked from guanghelee/guanghelee.github.io
 
