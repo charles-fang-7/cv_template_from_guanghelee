@@ -35,6 +35,7 @@ jobs:
           cp assets/css/publications.css _site/assets/css/publications.css
           cp assets/js/main.js _site/assets/js/main.js
           if [ -d assets/images ]; then cp -R assets/images _site/assets/images; fi
+          if [ -d assets/docs ]; then cp -R assets/docs _site/assets/docs; fi
           touch _site/.nojekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
@@ -43,4 +44,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

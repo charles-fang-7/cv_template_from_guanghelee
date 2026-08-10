@@ -21,12 +21,19 @@ Then open `http://localhost:8000` in a browser.
 
 - Edit `index.html` for the biography, contact link, and project descriptions.
 - Edit `assets/css/main.css` for the visual design.
-- Add a portrait and CV PDF when they are ready.
+- Add a portrait as `assets/images/portrait.jpg` and a CV as `assets/docs/Cheng-Fang-CV.pdf` when they are ready.
+
+### Media folders
+
+- `assets/images/` — portrait and any future project images.
+- `assets/docs/` — downloadable documents such as the CV.
+
+After adding an asset, reference it from `index.html` with the same path, for example:
+
+```html
+<a href="assets/docs/Cheng-Fang-CV.pdf">Download CV</a>
+```
 
 ## Deployment
 
 The site is deployed automatically through GitHub Pages whenever the `master` branch changes.
-<<<<<<< HEAD
-=======
-
->>>>>>> 2633eb9bfca68fb9759bfea25351929b92818a51
