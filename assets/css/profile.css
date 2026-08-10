@@ -1,0 +1,1 @@
+.hero-art.portrait{background:#d8eaf0}.hero-art.portrait:before{z-index:1;pointer-events:none}.portrait-image{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;object-position:center}.hero-art .portrait-caption{z-index:2;padding:9px 11px;background:rgba(247,245,239,.78);backdrop-filter:blur(5px);color:var(--ink)}
