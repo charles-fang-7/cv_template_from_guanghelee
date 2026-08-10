@@ -34,6 +34,7 @@ jobs:
           cp assets/css/main.css _site/assets/css/main.css
           cp assets/css/publications.css _site/assets/css/publications.css
           cp assets/js/main.js _site/assets/js/main.js
+          if [ -d assets/images ]; then cp -R assets/images _site/assets/images; fi
           touch _site/.nojekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
